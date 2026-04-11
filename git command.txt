@@ -1,0 +1,3 @@
+**to initial a git repo
+git init
+
