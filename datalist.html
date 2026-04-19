@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 186</title>
+        
+    </head>
+    <body>
+       
+        
+        <label for="drink">Enter your favorite drink:</label>
+        <input list="drinks" name="drink" id="drink">
+        <datalist id="drinks">
+            <option value="Coffee">
+            <option value="Tea">
+            <option value="Juice">
+            <option value="Soda">
+        </datalist>
+
+        <form enctype="multipart/form-data" action="process.php" method="post">
+            <label for="key">Choose a key:</label>
+            <keygen name="key" id="key">
+            <input type="submit" value="Submit">
+        </form>
+
+        <form action="" method="get">
+            <input type="number" name="value1" id="value1">
+            <input type="number" name="value2" id="value2">
+            <output name="total" for="value1 value2"></output>
+            <button type="submit">Calculate Total</button>
+        </form>
+    </body>
+</html>
